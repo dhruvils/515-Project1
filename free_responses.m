@@ -59,3 +59,7 @@ A = [100,103,99,97,93,94,78,73;
 C1 = haar_2d_n(A);
 C = round(C1);
 
+%6
+% We assumed that the 2D matrix was nxn, where n is a power of 2.
+% We also made the matrix's rows and columns compress at the same time.
+
